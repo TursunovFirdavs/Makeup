@@ -1,5 +1,5 @@
 const initialState = {
-    lang: 'sum'
+    lang: '$'
 }
 
 const langReducer = (state = initialState, action) => {
