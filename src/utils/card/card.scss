@@ -1,0 +1,63 @@
+.card {
+    margin-top: 10px;
+    max-width: 320px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    .img_wrapper {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 320px;
+        // background-color: red;
+        img {
+            max-width: 100%; 
+            transition: 0.3s; 
+        }
+        img:hover {
+            max-width: 340px;
+        }
+    }
+    .product-info {
+        padding: 10px; 
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            padding: 10px 0;
+            padding-right: 20px;
+            height: 77.6px;
+        }
+        .save-to {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0 10px;
+            button {
+                border: none;
+                padding: 10px 20px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+.card__top-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+    
+    .icon__heart:hover{
+      cursor: pointer;
+    }
+    .icon__heart--fill{
+      color: red;
+    }
+    svg{
+      font-size: 24px;
+      color: #000;
+    }
+  }

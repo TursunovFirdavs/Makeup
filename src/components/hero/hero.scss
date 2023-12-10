@@ -1,0 +1,55 @@
+.hero {
+  margin-top: 70px;
+}
+
+.swiper_wrapper {
+    background: rgb(224,173,124);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-card_data {
+    padding: 15px 25px;
+    p {
+        padding: 10px 0;
+    }
+    span {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .saver {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    button {
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .like_icon {
+        font-size: 22px;
+    }
+  }

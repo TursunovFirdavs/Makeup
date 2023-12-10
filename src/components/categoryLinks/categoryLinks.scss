@@ -1,0 +1,29 @@
+.category_links-wrapper {
+    padding-top: 10px;
+    height: 42px;
+    overflow-y: hidden;
+    background-color: rgb(237,236,237);
+    border: 1px solid rgb(241, 240, 240);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 72px;
+}
+
+.category_links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    .cat-link {
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    li {
+        padding-bottom: 10px ;
+        transition: 0.3s;
+    }
+    li:hover {
+        border-bottom: 2px solid gray;
+
+    }
+}
